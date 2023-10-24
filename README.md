@@ -1,11 +1,11 @@
-**Raahgeer - A Travel Agencia: Your Gateway to Globetrotting Adventures**
+## **Raahgeer - A Travel Agencia: Your Gateway to Globetrotting Adventures**
 
 *Experience the World through Raahgeer's Captivating Homepage*
 
-**Introduction:**
+## **Introduction:**
 Raahgeer - A Travel Agencia is not just a website; it's a beautifully crafted portal that opens doors to exciting travel opportunities. This responsive website, built using HTML, CSS, JavaScript, and Bootstrap, seamlessly combines style, functionality, and user-friendliness.
 
-**Homepage Exploration:**
+##**Homepage Exploration:**
 1. **Visually Stunning:** The homepage is a visual treat, showcasing an array of travel possibilities, inspiring your wanderlust, and beckoning you to explore.
 
 2. **Responsive Design:** Raahgeer adapts to your device, ensuring you can access it from your computer, tablet, or smartphone without any compromise in quality.
