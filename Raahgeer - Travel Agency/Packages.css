@@ -1,0 +1,77 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(0, 0, 0);
+}
+.wrapper{
+    width: 900px;
+    margin: 5% auto;
+}
+.single-price{
+    width: 33%;
+    background: #78793ae8;
+    float: left;
+    margin-top: 2%;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    transition:0.9s;
+}
+.price{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 2px solid #645f30;
+    margin: 5% auto 0 auto;
+    text-align: center;
+}
+.deals{
+    margin-top: 10%;
+    font-weight: 400;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.single-price h1{
+   font-size: 18px;
+   color: rgba(185, 187, 89, 0.911);
+   line-height: 3;
+   text-transform: uppercase;
+}
+.price h2{
+    font-size: 30px;
+    color: rgb(182, 184, 105);
+    border-radius: 50px;
+}
+.deals h4{
+  font-size: 14px;
+  font-weight: normal;
+  text-align: center;
+  color: rgb(184, 173, 93);
+  line-height: 1;
+
+}
+.single-price:hover{
+    background: #d8d170ec;
+    color: #fff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 1);
+    transform: scale(1.1);
+    z-index: 1;
+    border-radius: 25px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

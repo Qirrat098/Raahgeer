@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation Form</title>
+    <link rel="stylesheet" href="Rform.css">
+    <script src="Rform.js"></script>
+</head>
+<body>
+<div class="main">
+    <div class="register">
+        <h2>Make Your Reservation</h2>
+        <form id="Register" method="post" action="thankyou.html">
+        <label> Your Name </label>   
+        <br> 
+        <input type="text" name="fname" id="name" placeholder="First Name" required>
+        <br>
+        <br>
+        <input type="text" name="lname" id="name" placeholder="Last Name" required>
+        <br>
+        <br>
+        <label> Gender </label>
+        <br>
+        <input type="radio" name="gender" id="male">
+        &nbsp;
+        <span id="male"> Male </span>
+        <input type="radio" name="gender" id="female">
+        <span id="female"> Female </span>
+        <input type="radio" name="gender" id="other">
+        <span id="Other"> Other </span>
+        <br>
+        <br>
+        <label> Birth Date &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </label>
+        <br>
+        <input  class="number" type="date" id="name"> &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; 
+        <br>
+        <br>
+        <label>Organization Name</label>
+        <br>
+        <input type="text" name="organization" id="name" placeholder="Organization">
+        <br>
+        <br>
+        <label for="html">Phone Number &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; </label>
+        <br>
+       
+        <br>
+        <input type="tel" id="name" name="name" placeholder="123-45-678" 
+        pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>  
+        <br>
+        <br>
+        <label for="html">Your email </label>
+        <br>
+        <input type="email" id="name" name="name" placeholder="Enter Email"
+        pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"> 
+         <br> </br>
+         <label for="html">Number Of People Travelling</label>
+         <br>
+        <input type="number" id="name" class="number" name="name" min="0" max="10"> &nbsp; &nbsp;
+        <select id="name" name="name"> 
+            <option value="Country-select" id=""> Country </option>
+            <option value="Paris"> Paris </option>
+            <option value="United Kingdom"> United Kingdom </option>
+            <option value="Turkey"> Turkey</option>
+            <option value="Pakistan"> Pakistan  </option>
+            <option value="Japan"> Japan </option>
+            <option value="Italy"> Italy </option>
+            <option value="Greece"> Greece </option>
+            <option value="Saudia Arabia"> Saudia Arabia </option>
+            <option value="Korea"> Korea </option>
+            <option value="Switzerland"> Switzerland </option>
+            <option value="Italy"> China </option>
+            <option value="Greece"> Canada </option>
+            <option value="Saudia Arabia"> Australia </option>
+            <option value="Korea"> Malaysia </option>
+            <option value="Switzerland"> Qatar </option>
+        </select>
+        <br>
+        <br>
+        <select id="name" name="name"> 
+            <option value="Choose Package" id=""> Packages </option>
+            <option value="Paris"> Basic </option>
+            <option value="United Kingdom"> Standard </option>
+            <option value="United Kingdom"> Premium </option>
+        </select>
+        <br>
+        <br>
+        <label for="html" "> Set Date and Time for Travelling:</label>
+        <br>
+        <input class="number"  type="datetime-local" name="name" id="name">
+         <br> </br>
+         <label > Your Address</label>
+         <br>
+         <textarea id="name" rows = "2" cols = "45" name = "name">
+            </textarea>
+            <br>
+            <br>
+         <button type="submit" class="btn" name="submit">Submit</button>
+
+           
+            </a>
+        </form>
+    </div>
+</div>
+
+<div class="Img23">
+    <img src="black.png" alt="black" width="643" height="1100">
+</div>
+<div class="P1">
+<h1>Take Your Next Trip With RaahGeer</h1>
+<p> Your Dream Vacation Awaits </p>
+</div>
+<div class="Img45">
+    <img src="IMG2.PNG" alt="black" width="250" height="200">
+</div>
+
+    
+</body>
+</html>
